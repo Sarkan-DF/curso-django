@@ -7,6 +7,8 @@ name = "pypi"
 django = "*"
 gunicorn = "*"
 heroku = "*"
+certifi = "*"
+setuptools = "*"
 
 [dev-packages]
 flake8 = "*"
