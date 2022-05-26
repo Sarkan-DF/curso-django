@@ -9,6 +9,8 @@ gunicorn = "*"
 heroku = "*"
 certifi = "*"
 setuptools = "*"
+python-dateutil = "*"
+mccabe = "*"
 
 [dev-packages]
 flake8 = "*"
