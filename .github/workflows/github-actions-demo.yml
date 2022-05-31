@@ -26,3 +26,13 @@ jobs:
           python-version: "3.10"
       - name: flake8 Lint
         uses: py-actions/flake8@v2
+
+      ########################################################
+      ##Pytest##
+      - name: Run pytest
+        uses: pavelzw/pytest-action@v1
+        with:
+          verbose: true
+          emoji: true
+          job_summary: true
+          custom_arguments: '-q'
