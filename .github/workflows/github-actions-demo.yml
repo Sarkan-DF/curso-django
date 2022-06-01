@@ -31,3 +31,4 @@ jobs:
       run: |
         pipenv install --dev
         pipenv run pytest --cov=pypro
+        pipenv run codecov
