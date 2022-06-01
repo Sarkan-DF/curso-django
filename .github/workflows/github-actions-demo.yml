@@ -31,3 +31,7 @@ jobs:
       run: |
         pipenv install --dev
         pipenv run pytest --cov=pypro
+
+    if: ${{ github.ref == 'master' }}
+    needs: build
+    pipenv run codecov
