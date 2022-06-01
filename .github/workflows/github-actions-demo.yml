@@ -20,13 +20,7 @@ jobs:
       run: |
         pip install pipenv
         pipenv sync -d
-
-    - name: Check out source repository
-      uses: actions/checkout@v2
-    - name: Set up Python environment
-      uses: actions/setup-python@v2
-      with:
-        python-version: "3.10"
+    ###Flake8###
     - name: flake8
       uses: py-actions/flake8@v2
 
