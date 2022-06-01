@@ -1,10 +1,5 @@
-name: curso django 1
-
-on:
-  push:
-    branches: [ origin ]
-  pull_request:
-    branches: [ main ]
+name: curso django aluno
+on: [push]
 
 permissions:
   contents: read
