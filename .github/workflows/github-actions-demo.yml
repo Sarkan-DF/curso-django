@@ -2,9 +2,9 @@ name: curso django 1
 
 on:
   push:
-    branches: [ master ]
+    branches: [ origin ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 permissions:
   contents: read
