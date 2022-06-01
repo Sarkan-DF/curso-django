@@ -31,10 +31,3 @@ jobs:
       run: |
         pipenv install --dev
         pipenv run pytest --cov=pypro
-
-    - name: CodeCov
-      run: |
-        curl -Os https://uploader.codecov.io/latest/linux/codecov
-
-        chmod +x codecov
-        ./codecov
