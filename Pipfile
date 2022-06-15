@@ -12,6 +12,7 @@ setuptools = "*"
 python-dateutil = "*"
 mccabe = "*"
 python-decouple = "*"
+dj-database-url = "*"
 
 [dev-packages]
 flake8 = "*"
