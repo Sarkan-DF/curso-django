@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import os.path
 from functools import partial
 from pathlib import Path
-from decouple import config, Csv
+from decouple import config
 import dj_database_url
 
 # from decouple import Csv
@@ -30,8 +30,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool, default=False)
 
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', default="127.0.0.1", cast=Csv())
-# ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=Csv())
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
