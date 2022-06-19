@@ -14,6 +14,7 @@ mccabe = "*"
 python-decouple = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
+django-s3-folder-storage = "*"
 
 [dev-packages]
 flake8 = "*"
